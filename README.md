@@ -29,7 +29,7 @@ On **Windows Powershell**:
     .\airflow\Scripts\activate.ps1 #Activation
     $env:AWS_SECRET_ACCESS_KEY='XXXXXXXXXXXXXXXXXXX'
     $env:AWS_ACCESS_KEY_ID='YYYYYYYYYYYYYYYYY'
-    ```
+```
 
 If our are using Linux or Mac, commandes will be slightly diffent
 
