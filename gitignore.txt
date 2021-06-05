@@ -2,4 +2,4 @@
 .airflow
 
 # Python
-scraping.__pycache__
+__pycache__
