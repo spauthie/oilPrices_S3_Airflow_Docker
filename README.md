@@ -31,12 +31,9 @@ On **Windows Powershell**:
     $env:AWS_ACCESS_KEY_ID='YYYYYYYYYYYYYYYYY'
 ```
 
-If our are using Linux or Mac, commandes will be slightly diffent
+If our are using Linux or Mac, commandes will be slightly different.
 
-You also need to update the bucket name will you want to use in the oil_price.py file.
-
-
-After this you can the following commande to build the image and run your containers
+You also need to update the bucket name will you want to use in the oil_price.py file. After this you can the following commande to build the image and run your containers
 
 For **LocalExecutor** :
 
