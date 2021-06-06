@@ -33,10 +33,10 @@ $env:AWS_ACCESS_KEY_ID='YYYYYYYYYYYYYYYYY'
 
 If our are using Linux or Mac, commandes will be slightly different.
 
-You also need to update the bucket name in the oil_price.py file. After this you can run the following commande to build the image and run your containers
+You also need to update the bucket name in the oil_price.py file. After this you can run the following commande to build the image and run your containers.
 
 For **LocalExecutor** :
 
     docker-compose -f docker-compose-LocalExecutor.yml up -d
 
-You now go to http://localhost:8080/ where you should see the dag. Activate it and trigger your dag!
+You can go to http://localhost:8080/ where you should see the dag. Activate it and trigger your dag!
