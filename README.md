@@ -7,8 +7,7 @@ The goal of this project is to retrieve oil prices from investpy API and store t
 ## Informations
 
 * Based on Python (3.7-slim-buster) official Image [python:3.7-slim-buster](https://hub.docker.com/_/python/) and uses the official [Postgres](https://hub.docker.com/_/postgres/)
-* Install [Docker](https://www.docker.com/)
-* Install [Docker Compose](https://docs.docker.com/compose/install/)
+* Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
 * Following the Airflow release from [Python Package Index](https://pypi.python.org/pypi/apache-airflow)
 
 
