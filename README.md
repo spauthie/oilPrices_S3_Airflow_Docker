@@ -21,19 +21,19 @@ Pull the image from the Docker repository.
 
 ## Usage
 
-We will need to create a virtual env where will store our AWS credentials. To do it, you can run the following commandes line
+We will need to create a virtual env where will store our AWS credentials. To do it, you can run the following commandes line with your own credentials.
 
 On **Windows Powershell**:
 ```shell
-    virtualenv airflow
-    .\airflow\Scripts\activate.ps1 #Activation
-    $env:AWS_SECRET_ACCESS_KEY='XXXXXXXXXXXXXXXXXXX'
-    $env:AWS_ACCESS_KEY_ID='YYYYYYYYYYYYYYYYY'
+virtualenv airflow
+.\airflow\Scripts\activate.ps1
+$env:AWS_SECRET_ACCESS_KEY='XXXXXXXXXXXXXXXXXXX'
+$env:AWS_ACCESS_KEY_ID='YYYYYYYYYYYYYYYYY'
 ```
 
 If our are using Linux or Mac, commandes will be slightly different.
 
-You also need to update the bucket name will you want to use in the oil_price.py file. After this you can run the following commande to build the image and run your containers
+You also need to update the bucket name in the oil_price.py file. After this you can run the following commande to build the image and run your containers
 
 For **LocalExecutor** :
 
